@@ -26,7 +26,8 @@
    "fieldtype": "Time",
    "in_list_view": 1,
    "label": "Day Start Time",
-   "reqd": 1
+   "reqd": 1,
+   "set_only_once": 1
   },
   {
    "fieldname": "day_end_time",
@@ -123,7 +124,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-27 17:44:05.242725",
+ "modified": "2023-12-27 18:37:07.214218",
  "modified_by": "Administrator",
  "module": "Haweli Reporting",
  "name": "Task Reporting",
