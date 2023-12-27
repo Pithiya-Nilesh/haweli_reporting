@@ -1,7 +1,7 @@
 app_name = "haweli_reporting"
 app_title = "Haweli Reporting"
 app_publisher = "Sanskar Technolab"
-app_description = "this app form"
+app_description = "this app for manage daily reporting"
 app_email = "nilesh@sanskartechnolab.com"
 app_license = "mit"
 # required_apps = []

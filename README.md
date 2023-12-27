@@ -1,6 +1,6 @@
 ## Haweli Reporting
 
-this app form
+this app for manage daily reporting
 
 #### License
 

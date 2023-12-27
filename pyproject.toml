@@ -3,7 +3,7 @@ name = "haweli_reporting"
 authors = [
     { name = "Sanskar Technolab", email = "nilesh@sanskartechnolab.com"}
 ]
-description = "this app form"
+description = "this app for manage daily reporting"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
