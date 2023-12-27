@@ -1,0 +1,161 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{reporting_date}-{user}-{#####}",
+ "creation": "2023-12-26 16:08:07.430019",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "working_time_section",
+  "day_start_time",
+  "column_break_qheq",
+  "day_end_time",
+  "task_reporting_section",
+  "task_reporting_details",
+  "section_break_ilzu",
+  "user",
+  "first_name",
+  "column_break_mbar",
+  "reporting_time",
+  "reporting_date",
+  "working_hours"
+ ],
+ "fields": [
+  {
+   "fieldname": "day_start_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Day Start Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "day_end_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Day End Time",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "default": "user",
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "User",
+   "options": "User",
+   "permlevel": 1,
+   "read_only": 1,
+   "set_only_once": 1
+  },
+  {
+   "fetch_from": "user.first_name",
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "First Name",
+   "permlevel": 1,
+   "read_only": 1,
+   "set_only_once": 1
+  },
+  {
+   "default": "Now",
+   "fieldname": "reporting_time",
+   "fieldtype": "Time",
+   "label": "Reporting Time",
+   "permlevel": 1,
+   "read_only": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "task_reporting_section",
+   "fieldtype": "Section Break",
+   "label": "Task Reporting Details"
+  },
+  {
+   "fieldname": "task_reporting_details",
+   "fieldtype": "Table",
+   "label": "Task Reporting Details",
+   "options": "Task Reporting Details",
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "column_break_qheq",
+   "fieldtype": "Column Break",
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "section_break_ilzu",
+   "fieldtype": "Section Break",
+   "label": "User Details"
+  },
+  {
+   "fieldname": "column_break_mbar",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "working_time_section",
+   "fieldtype": "Section Break",
+   "label": "Working Time"
+  },
+  {
+   "fieldname": "working_hours",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Working Hours",
+   "permlevel": 1,
+   "read_only": 1,
+   "set_only_once": 1
+  },
+  {
+   "default": "Now",
+   "fieldname": "reporting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Reporting Date",
+   "permlevel": 1,
+   "read_only": 1,
+   "set_only_once": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-27 17:44:05.242725",
+ "modified_by": "Administrator",
+ "module": "Haweli Reporting",
+ "name": "Task Reporting",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Reporting",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
