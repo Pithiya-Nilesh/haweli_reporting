@@ -9,7 +9,6 @@ from frappe.utils.data import today
 from frappe.utils import time_diff_in_hours
 
 
-
 class TaskReporting(Document):
 	def before_save(self):
 		self.user = frappe.session.user
