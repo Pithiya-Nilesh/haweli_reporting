@@ -17,7 +17,9 @@
   "task_reporting_details",
   "section_break_ilzu",
   "user",
-  "first_name"
+  "first_name",
+  "task_reporting_details_section",
+  "task_reporting_detail"
  ],
  "fields": [
   {
@@ -25,7 +27,6 @@
    "fieldtype": "Time",
    "in_list_view": 1,
    "label": "Day Start Time",
-   "reqd": 1,
    "set_only_once": 1
   },
   {
@@ -33,7 +34,6 @@
    "fieldtype": "Time",
    "in_list_view": 1,
    "label": "Day End Time",
-   "reqd": 1,
    "set_only_once": 1
   },
   {
@@ -54,7 +54,7 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "First Name",
+   "label": "Full Name",
    "permlevel": 1,
    "read_only": 1,
    "set_only_once": 1
@@ -71,6 +71,7 @@
   {
    "fieldname": "task_reporting_section",
    "fieldtype": "Section Break",
+   "hidden": 1,
    "label": "Task Reporting Details"
   },
   {
@@ -93,6 +94,7 @@
   {
    "fieldname": "working_time_section",
    "fieldtype": "Section Break",
+   "hidden": 1,
    "label": "Working Time"
   },
   {
@@ -115,11 +117,22 @@
    "permlevel": 1,
    "read_only": 1,
    "set_only_once": 1
+  },
+  {
+   "fieldname": "task_reporting_details_section",
+   "fieldtype": "Section Break",
+   "label": "Task Reporting Details"
+  },
+  {
+   "fieldname": "task_reporting_detail",
+   "fieldtype": "Table",
+   "label": "Task Reporting Detail",
+   "options": "Timing Report"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-28 18:53:40.762809",
+ "modified": "2024-05-21 17:05:06.531007",
  "modified_by": "Administrator",
  "module": "Haweli Reporting",
  "name": "Task Reporting",
