@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"glRISemjHW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Daily Task Report</span>\",\"col\":12}},{\"id\":\"ZCxmI-75QO\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"AquaEINAxm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add Task\",\"col\":3}},{\"id\":\"iO4PEkXZjs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add Task Reporting\",\"col\":3}},{\"id\":\"Vdmu9-S3by\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"QU32-O05Ye\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Your Task\",\"col\":6}},{\"id\":\"8XcMYkdGgD\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Your Task Reporting\",\"col\":6}}]",
+ "content": "[{\"id\":\"glRISemjHW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Daily Task Report</span>\",\"col\":12}},{\"id\":\"ZCxmI-75QO\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"AquaEINAxm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add Task\",\"col\":3}},{\"id\":\"iO4PEkXZjs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add Task Reporting\",\"col\":3}},{\"id\":\"gNOmYwrkA2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Working Report\",\"col\":3}},{\"id\":\"Vdmu9-S3by\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"QU32-O05Ye\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Your Task\",\"col\":6}},{\"id\":\"8XcMYkdGgD\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Your Task Reporting\",\"col\":6}}]",
  "creation": "2023-12-28 10:44:51.934735",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "Daily Task Report",
  "links": [],
- "modified": "2024-05-21 17:05:41.135502",
+ "modified": "2024-05-29 11:48:01.196550",
  "modified_by": "Administrator",
  "module": "Haweli Reporting",
  "name": "Daily Task Report",
@@ -47,6 +47,13 @@
    "link_to": "GP Task",
    "stats_filter": "[]",
    "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Employee Working Report",
+   "link_to": "Employee Working Report",
+   "type": "Report"
   },
   {
    "color": "Grey",

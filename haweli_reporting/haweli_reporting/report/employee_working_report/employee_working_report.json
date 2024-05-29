@@ -9,7 +9,7 @@
  "idx": 0,
  "is_standard": "Yes",
  "letterhead": null,
- "modified": "2024-05-22 16:55:25.696015",
+ "modified": "2024-05-29 15:39:35.157253",
  "modified_by": "Administrator",
  "module": "Haweli Reporting",
  "name": "Employee Working Report",
@@ -24,6 +24,9 @@
   },
   {
    "role": "Task Reporting"
+  },
+  {
+   "role": "Prepared Report User"
   }
  ]
 }
