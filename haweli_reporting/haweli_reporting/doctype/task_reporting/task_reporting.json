@@ -118,8 +118,7 @@
    "in_standard_filter": 1,
    "label": "Reporting Date",
    "permlevel": 1,
-   "read_only": 1,
-   "set_only_once": 1
+   "read_only": 1
   },
   {
    "fieldname": "task_reporting_details_section",
@@ -135,7 +134,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-04 12:44:25.674910",
+ "modified": "2024-06-04 13:29:42.859773",
  "modified_by": "Administrator",
  "module": "Haweli Reporting",
  "name": "Task Reporting",
