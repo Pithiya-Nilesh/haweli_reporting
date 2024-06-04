@@ -25,16 +25,16 @@
   {
    "fieldname": "day_start_time",
    "fieldtype": "Time",
+   "hidden": 1,
    "in_list_view": 1,
-   "label": "Day Start Time",
-   "set_only_once": 1
+   "label": "Day Start Time"
   },
   {
    "fieldname": "day_end_time",
    "fieldtype": "Time",
+   "hidden": 1,
    "in_list_view": 1,
-   "label": "Day End Time",
-   "set_only_once": 1
+   "label": "Day End Time"
   },
   {
    "default": "user",
@@ -63,6 +63,7 @@
    "default": "Now",
    "fieldname": "reporting_time",
    "fieldtype": "Time",
+   "hidden": 1,
    "label": "Reporting Time",
    "permlevel": 1,
    "read_only": 1,
@@ -100,6 +101,7 @@
   {
    "fieldname": "working_hours",
    "fieldtype": "Data",
+   "hidden": 1,
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Working Hours",
@@ -111,6 +113,7 @@
    "default": "Now",
    "fieldname": "reporting_date",
    "fieldtype": "Date",
+   "hidden": 1,
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Reporting Date",
@@ -132,7 +135,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-21 17:05:06.531007",
+ "modified": "2024-06-04 12:44:25.674910",
  "modified_by": "Administrator",
  "module": "Haweli Reporting",
  "name": "Task Reporting",

@@ -59,7 +59,6 @@
   {
    "fieldname": "task",
    "fieldtype": "Link",
-   "in_list_view": 1,
    "label": "Task",
    "options": "GP Task"
   }
@@ -67,7 +66,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-05-23 14:03:52.336376",
+ "modified": "2024-06-04 12:46:11.100456",
  "modified_by": "Administrator",
  "module": "Haweli Reporting",
  "name": "Timing Report",
