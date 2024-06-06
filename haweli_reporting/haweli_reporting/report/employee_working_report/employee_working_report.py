@@ -99,7 +99,7 @@ def execute(filters=None):
         else:
             sql += " WHERE " + " AND ".join(conditions)
      
-    sql += " ORDER BY tr.user ASC, ti.date ASC"        
+    sql += " ORDER BY ti.date ASC, ti.time ASC"        
 
     data = frappe.db.sql(sql, tuple(sql_args), as_dict=True)
 
